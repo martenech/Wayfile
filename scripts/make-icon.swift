@@ -1,13 +1,20 @@
 // Renders logo.png onto a macOS app-icon tile and writes a 1024×1024 master PNG.
 // macOS 26 boxes non-squircle icons into a grey tile, so the logo gets its own tile here.
-// Usage: swift scripts/make-icon.swift <logo.png> <out.png>
+// Usage: swift scripts/make-icon.swift <logo.png> <out.png> [x,y,size]
+// With x,y,size (pixels, from the top left) the logo is artwork that already has its own tile:
+// that square is cropped out and fills the whole icon tile instead of sitting on the light background.
 import AppKit
 
 let args = CommandLine.arguments
-guard args.count == 3, let logo = NSImage(contentsOfFile: args[1]) else {
-    fputs("usage: make-icon.swift <logo.png> <out.png>\n", stderr)
+guard args.count == 3 || args.count == 4, let logo = NSImage(contentsOfFile: args[1]) else {
+    fputs("usage: make-icon.swift <logo.png> <out.png> [x,y,size]\n", stderr)
     exit(1)
 }
+let bleedCrop: CGRect? = args.count == 4 ? {
+    let v = args[3].split(separator: ",").compactMap { Double($0) }
+    guard v.count == 3 else { fputs("crop must be x,y,size\n", stderr); exit(1) }
+    return CGRect(x: v[0], y: v[1], width: v[2], height: v[2])
+}() : nil
 
 let canvas: CGFloat = 1024
 // Apple's macOS icon grid: an 824 pt tile centred on a 1024 canvas, ~185 pt corner radius.
@@ -44,11 +51,15 @@ NSColor.black.withAlphaComponent(0.08).setStroke()
 path.lineWidth = 2
 path.stroke()
 
-// Logo fills most of the tile, centred.
-let inset: CGFloat = 40
-let logoRect = tile.insetBy(dx: inset, dy: inset)
 path.addClip()
-logo.draw(in: logoRect, from: .zero, operation: .sourceOver, fraction: 1)
+if let crop = bleedCrop, let cg = logo.cgImage(forProposedRect: nil, context: nil, hints: nil)?.cropping(to: crop) {
+    // Full-bleed artwork, clipped to the tile.
+    NSImage(cgImage: cg, size: crop.size).draw(in: tile, from: .zero, operation: .sourceOver, fraction: 1)
+} else {
+    // Logo fills most of the tile, centred.
+    let inset: CGFloat = 40
+    logo.draw(in: tile.insetBy(dx: inset, dy: inset), from: .zero, operation: .sourceOver, fraction: 1)
+}
 
 NSGraphicsContext.restoreGraphicsState()
 try! rep.representation(using: .png, properties: [:])!.write(to: URL(fileURLWithPath: args[2]))

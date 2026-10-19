@@ -5,7 +5,9 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
-swift "$ROOT/scripts/make-icon.swift" "$ROOT/logo.png" "$WORK/master.png"
+# logo.png is full artwork with its own tile: crop that square (x,y,size in pixels) to fill the icon.
+LOGO_CROP="${LOGO_CROP:-106,82,1040}"
+swift "$ROOT/scripts/make-icon.swift" "$ROOT/logo.png" "$WORK/master.png" $LOGO_CROP
 
 ICONSET="$WORK/AppIcon.iconset"
 mkdir -p "$ICONSET"
