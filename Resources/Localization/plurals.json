@@ -1,0 +1,422 @@
+{
+  "%lld activities": {
+    "en": {
+      "one": "%lld activity",
+      "other": "%lld activities"
+    },
+    "sk": {
+      "few": "%lld aktivity",
+      "many": "%lld aktivít",
+      "one": "%lld aktivita",
+      "other": "%lld aktivít"
+    }
+  },
+  "%lld buckets": {
+    "en": {
+      "one": "%lld bucket",
+      "other": "%lld buckets"
+    },
+    "sk": {
+      "few": "%lld buckety",
+      "many": "%lld bucketov",
+      "one": "%lld bucket",
+      "other": "%lld bucketov"
+    }
+  },
+  "%lld changed items in this folder": {
+    "en": {
+      "one": "%lld changed item in this folder",
+      "other": "%lld changed items in this folder"
+    },
+    "sk": {
+      "few": "%lld zmenené položky v tomto priečinku",
+      "many": "%lld zmenených položiek v tomto priečinku",
+      "one": "%lld zmenená položka v tomto priečinku",
+      "other": "%lld zmenených položiek v tomto priečinku"
+    }
+  },
+  "%lld channels": {
+    "en": {
+      "one": "%lld channel",
+      "other": "%lld channels"
+    },
+    "sk": {
+      "few": "%lld kanály",
+      "many": "%lld kanálov",
+      "one": "%lld kanál",
+      "other": "%lld kanálov"
+    }
+  },
+  "%lld commits": {
+    "en": {
+      "one": "%lld commit",
+      "other": "%lld commits"
+    },
+    "sk": {
+      "few": "%lld commity",
+      "many": "%lld commitov",
+      "one": "%lld commit",
+      "other": "%lld commitov"
+    }
+  },
+  "%lld conflicts": {
+    "en": {
+      "one": "%lld conflict",
+      "other": "%lld conflicts"
+    },
+    "sk": {
+      "few": "%lld konflikty",
+      "many": "%lld konfliktov",
+      "one": "%lld konflikt",
+      "other": "%lld konfliktov"
+    }
+  },
+  "%lld conflicts to fix": {
+    "en": {
+      "one": "%lld conflict to fix",
+      "other": "%lld conflicts to fix"
+    },
+    "sk": {
+      "few": "%lld konflikty na vyriešenie",
+      "many": "%lld konfliktov na vyriešenie",
+      "one": "%lld konflikt na vyriešenie",
+      "other": "%lld konfliktov na vyriešenie"
+    }
+  },
+  "%lld copies": {
+    "en": {
+      "one": "%lld copy",
+      "other": "%lld copies"
+    },
+    "sk": {
+      "few": "%lld kópie",
+      "many": "%lld kópií",
+      "one": "%lld kópia",
+      "other": "%lld kópií"
+    }
+  },
+  "%lld days": {
+    "en": {
+      "one": "%lld day",
+      "other": "%lld days"
+    },
+    "sk": {
+      "few": "%lld dni",
+      "many": "%lld dní",
+      "one": "%lld deň",
+      "other": "%lld dní"
+    }
+  },
+  "%lld differences": {
+    "en": {
+      "one": "%lld difference",
+      "other": "%lld differences"
+    },
+    "sk": {
+      "few": "%lld rozdiely",
+      "many": "%lld rozdielov",
+      "one": "%lld rozdiel",
+      "other": "%lld rozdielov"
+    }
+  },
+  "%lld files": {
+    "en": {
+      "one": "%lld file",
+      "other": "%lld files"
+    },
+    "sk": {
+      "few": "%lld súbory",
+      "many": "%lld súborov",
+      "one": "%lld súbor",
+      "other": "%lld súborov"
+    }
+  },
+  "%lld files changed": {
+    "en": {
+      "one": "%lld file changed",
+      "other": "%lld files changed"
+    },
+    "sk": {
+      "few": "zmenené %lld súbory",
+      "many": "zmenených %lld súborov",
+      "one": "zmenený %lld súbor",
+      "other": "zmenených %lld súborov"
+    }
+  },
+  "%lld folders": {
+    "en": {
+      "one": "%lld folder",
+      "other": "%lld folders"
+    },
+    "sk": {
+      "few": "%lld priečinky",
+      "many": "%lld priečinkov",
+      "one": "%lld priečinok",
+      "other": "%lld priečinkov"
+    }
+  },
+  "%lld items": {
+    "en": {
+      "one": "%lld item",
+      "other": "%lld items"
+    },
+    "sk": {
+      "few": "%lld položky",
+      "many": "%lld položiek",
+      "one": "%lld položka",
+      "other": "%lld položiek"
+    }
+  },
+  "%lld items already exist": {
+    "en": {
+      "one": "%lld item already exists",
+      "other": "%lld items already exist"
+    },
+    "sk": {
+      "few": "%lld položky už existujú",
+      "many": "%lld položiek už existuje",
+      "one": "%lld položka už existuje",
+      "other": "%lld položiek už existuje"
+    }
+  },
+  "%lld items selected": {
+    "en": {
+      "one": "%lld item selected",
+      "other": "%lld items selected"
+    },
+    "sk": {
+      "few": "Vybraté %lld položky",
+      "many": "Vybratých %lld položiek",
+      "one": "Vybratá %lld položka",
+      "other": "Vybratých %lld položiek"
+    }
+  },
+  "%lld items would change:": {
+    "en": {
+      "one": "%lld item would change:",
+      "other": "%lld items would change:"
+    },
+    "sk": {
+      "few": "Zmenili by sa %lld položky:",
+      "many": "Zmenilo by sa %lld položiek:",
+      "one": "Zmenila by sa %lld položka:",
+      "other": "Zmenilo by sa %lld položiek:"
+    }
+  },
+  "%lld matching items": {
+    "en": {
+      "one": "%lld matching item",
+      "other": "%lld matching items"
+    },
+    "sk": {
+      "few": "%lld zodpovedajúce položky",
+      "many": "%lld zodpovedajúcich položiek",
+      "one": "%lld zodpovedajúca položka",
+      "other": "%lld zodpovedajúcich položiek"
+    }
+  },
+  "%lld operations": {
+    "en": {
+      "one": "%lld operation",
+      "other": "%lld operations"
+    },
+    "sk": {
+      "few": "%lld operácie",
+      "many": "%lld operácií",
+      "one": "%lld operácia",
+      "other": "%lld operácií"
+    }
+  },
+  "%lld operations in progress": {
+    "en": {
+      "one": "%lld operation in progress",
+      "other": "%lld operations in progress"
+    },
+    "sk": {
+      "few": "Prebiehajú %lld operácie",
+      "many": "Prebieha %lld operácií",
+      "one": "Prebieha %lld operácia",
+      "other": "Prebieha %lld operácií"
+    }
+  },
+  "%lld results": {
+    "en": {
+      "one": "%lld result",
+      "other": "%lld results"
+    },
+    "sk": {
+      "few": "%lld výsledky",
+      "many": "%lld výsledkov",
+      "one": "%lld výsledok",
+      "other": "%lld výsledkov"
+    }
+  },
+  "%lld transfers didn’t finish last time": {
+    "en": {
+      "one": "A transfer didn’t finish last time",
+      "other": "%lld transfers didn’t finish last time"
+    },
+    "sk": {
+      "few": "%lld prenosy sa minule nedokončili",
+      "many": "%lld prenosov sa minule nedokončilo",
+      "one": "Minulý prenos sa nedokončil",
+      "other": "%lld prenosov sa minule nedokončilo"
+    }
+  },
+  "%lld unchanged lines": {
+    "en": {
+      "one": "%lld unchanged line",
+      "other": "%lld unchanged lines"
+    },
+    "sk": {
+      "few": "%lld nezmenené riadky",
+      "many": "%lld nezmenených riadkov",
+      "one": "%lld nezmenený riadok",
+      "other": "%lld nezmenených riadkov"
+    }
+  },
+  "Ask AI About %lld Items…": {
+    "en": {
+      "one": "Ask AI About %lld Item…",
+      "other": "Ask AI About %lld Items…"
+    },
+    "sk": {
+      "few": "Opýtať sa AI na %lld položky…",
+      "many": "Opýtať sa AI na %lld položiek…",
+      "one": "Opýtať sa AI na %lld položku…",
+      "other": "Opýtať sa AI na %lld položiek…"
+    }
+  },
+  "Compress %lld Items": {
+    "en": {
+      "one": "Compress %lld Item",
+      "other": "Compress %lld Items"
+    },
+    "sk": {
+      "few": "Komprimovať %lld položky",
+      "many": "Komprimovať %lld položiek",
+      "one": "Komprimovať %lld položku",
+      "other": "Komprimovať %lld položiek"
+    }
+  },
+  "Move %lld screenshots to “Screenshots”": {
+    "en": {
+      "one": "Move %lld screenshot to “Screenshots”",
+      "other": "Move %lld screenshots to “Screenshots”"
+    },
+    "sk": {
+      "few": "Presunúť %lld snímky obrazovky do „Screenshots“",
+      "many": "Presunúť %lld snímok obrazovky do „Screenshots“",
+      "one": "Presunúť %lld snímku obrazovky do „Screenshots“",
+      "other": "Presunúť %lld snímok obrazovky do „Screenshots“"
+    }
+  },
+  "Permissions of %lld Items": {
+    "en": {
+      "one": "Permissions of %lld Item",
+      "other": "Permissions of %lld Items"
+    },
+    "sk": {
+      "few": "Oprávnenia %lld položiek",
+      "many": "Oprávnenia %lld položiek",
+      "one": "Oprávnenia %lld položky",
+      "other": "Oprávnenia %lld položiek"
+    }
+  },
+  "Rename %lld Items": {
+    "en": {
+      "one": "Rename %lld Item",
+      "other": "Rename %lld Items"
+    },
+    "sk": {
+      "few": "Premenovať %lld položky",
+      "many": "Premenovať %lld položiek",
+      "one": "Premenovať %lld položku",
+      "other": "Premenovať %lld položiek"
+    }
+  },
+  "Rename %lld Items…": {
+    "en": {
+      "one": "Rename %lld Item…",
+      "other": "Rename %lld Items…"
+    },
+    "sk": {
+      "few": "Premenovať %lld položky…",
+      "many": "Premenovať %lld položiek…",
+      "one": "Premenovať %lld položku…",
+      "other": "Premenovať %lld položiek…"
+    }
+  },
+  "Runs every %lld minutes": {
+    "en": {
+      "one": "Runs every minute",
+      "other": "Runs every %lld minutes"
+    },
+    "sk": {
+      "few": "Spúšťa sa každé %lld minúty",
+      "many": "Spúšťa sa každých %lld minút",
+      "one": "Spúšťa sa každú minútu",
+      "other": "Spúšťa sa každých %lld minút"
+    }
+  },
+  "Sync %lld Items": {
+    "en": {
+      "one": "Sync %lld Item",
+      "other": "Sync %lld Items"
+    },
+    "sk": {
+      "few": "Synchronizovať %lld položky",
+      "many": "Synchronizovať %lld položiek",
+      "one": "Synchronizovať %lld položku",
+      "other": "Synchronizovať %lld položiek"
+    }
+  },
+  "Trash %lld old installers": {
+    "en": {
+      "one": "Trash %lld old installer",
+      "other": "Trash %lld old installers"
+    },
+    "sk": {
+      "few": "Do koša %lld staré inštalátory",
+      "many": "Do koša %lld starých inštalátorov",
+      "one": "Do koša %lld starý inštalátor",
+      "other": "Do koša %lld starých inštalátorov"
+    }
+  },
+  "Trashing %lld broken links": {
+    "en": {
+      "one": "Trashing %lld broken link",
+      "other": "Trashing %lld broken links"
+    },
+    "sk": {
+      "few": "Presun %lld nefunkčných odkazov do koša",
+      "many": "Presun %lld nefunkčných odkazov do koša",
+      "one": "Presun %lld nefunkčného odkazu do koša",
+      "other": "Presun %lld nefunkčných odkazov do koša"
+    }
+  },
+  "and %lld more": {
+    "en": {
+      "one": "and %lld more",
+      "other": "and %lld more"
+    },
+    "sk": {
+      "few": "a ešte %lld",
+      "many": "a ešte %lld",
+      "one": "a ešte %lld",
+      "other": "a ešte %lld"
+    }
+  },
+  "text of %lld files": {
+    "en": {
+      "one": "text of %lld file",
+      "other": "text of %lld files"
+    },
+    "sk": {
+      "few": "text %lld súborov",
+      "many": "text %lld súborov",
+      "one": "text %lld súboru",
+      "other": "text %lld súborov"
+    }
+  }
+}

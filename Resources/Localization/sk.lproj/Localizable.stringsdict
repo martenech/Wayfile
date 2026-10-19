@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>%lld activities</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld aktivita</string>
+            <key>few</key>
+            <string>%lld aktivity</string>
+            <key>many</key>
+            <string>%lld aktivít</string>
+            <key>other</key>
+            <string>%lld aktivít</string>
+        </dict>
+    </dict>
+    <key>%lld buckets</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld bucket</string>
+            <key>few</key>
+            <string>%lld buckety</string>
+            <key>many</key>
+            <string>%lld bucketov</string>
+            <key>other</key>
+            <string>%lld bucketov</string>
+        </dict>
+    </dict>
+    <key>%lld changed items in this folder</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld zmenená položka v tomto priečinku</string>
+            <key>few</key>
+            <string>%lld zmenené položky v tomto priečinku</string>
+            <key>many</key>
+            <string>%lld zmenených položiek v tomto priečinku</string>
+            <key>other</key>
+            <string>%lld zmenených položiek v tomto priečinku</string>
+        </dict>
+    </dict>
+    <key>%lld channels</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld kanál</string>
+            <key>few</key>
+            <string>%lld kanály</string>
+            <key>many</key>
+            <string>%lld kanálov</string>
+            <key>other</key>
+            <string>%lld kanálov</string>
+        </dict>
+    </dict>
+    <key>%lld commits</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld commit</string>
+            <key>few</key>
+            <string>%lld commity</string>
+            <key>many</key>
+            <string>%lld commitov</string>
+            <key>other</key>
+            <string>%lld commitov</string>
+        </dict>
+    </dict>
+    <key>%lld conflicts</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld konflikt</string>
+            <key>few</key>
+            <string>%lld konflikty</string>
+            <key>many</key>
+            <string>%lld konfliktov</string>
+            <key>other</key>
+            <string>%lld konfliktov</string>
+        </dict>
+    </dict>
+    <key>%lld conflicts to fix</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld konflikt na vyriešenie</string>
+            <key>few</key>
+            <string>%lld konflikty na vyriešenie</string>
+            <key>many</key>
+            <string>%lld konfliktov na vyriešenie</string>
+            <key>other</key>
+            <string>%lld konfliktov na vyriešenie</string>
+        </dict>
+    </dict>
+    <key>%lld copies</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld kópia</string>
+            <key>few</key>
+            <string>%lld kópie</string>
+            <key>many</key>
+            <string>%lld kópií</string>
+            <key>other</key>
+            <string>%lld kópií</string>
+        </dict>
+    </dict>
+    <key>%lld days</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld deň</string>
+            <key>few</key>
+            <string>%lld dni</string>
+            <key>many</key>
+            <string>%lld dní</string>
+            <key>other</key>
+            <string>%lld dní</string>
+        </dict>
+    </dict>
+    <key>%lld differences</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld rozdiel</string>
+            <key>few</key>
+            <string>%lld rozdiely</string>
+            <key>many</key>
+            <string>%lld rozdielov</string>
+            <key>other</key>
+            <string>%lld rozdielov</string>
+        </dict>
+    </dict>
+    <key>%lld files</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld súbor</string>
+            <key>few</key>
+            <string>%lld súbory</string>
+            <key>many</key>
+            <string>%lld súborov</string>
+            <key>other</key>
+            <string>%lld súborov</string>
+        </dict>
+    </dict>
+    <key>%lld files changed</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>zmenený %lld súbor</string>
+            <key>few</key>
+            <string>zmenené %lld súbory</string>
+            <key>many</key>
+            <string>zmenených %lld súborov</string>
+            <key>other</key>
+            <string>zmenených %lld súborov</string>
+        </dict>
+    </dict>
+    <key>%lld folders</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld priečinok</string>
+            <key>few</key>
+            <string>%lld priečinky</string>
+            <key>many</key>
+            <string>%lld priečinkov</string>
+            <key>other</key>
+            <string>%lld priečinkov</string>
+        </dict>
+    </dict>
+    <key>%lld items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld položka</string>
+            <key>few</key>
+            <string>%lld položky</string>
+            <key>many</key>
+            <string>%lld položiek</string>
+            <key>other</key>
+            <string>%lld položiek</string>
+        </dict>
+    </dict>
+    <key>%lld items already exist</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld položka už existuje</string>
+            <key>few</key>
+            <string>%lld položky už existujú</string>
+            <key>many</key>
+            <string>%lld položiek už existuje</string>
+            <key>other</key>
+            <string>%lld položiek už existuje</string>
+        </dict>
+    </dict>
+    <key>%lld items selected</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Vybratá %lld položka</string>
+            <key>few</key>
+            <string>Vybraté %lld položky</string>
+            <key>many</key>
+            <string>Vybratých %lld položiek</string>
+            <key>other</key>
+            <string>Vybratých %lld položiek</string>
+        </dict>
+    </dict>
+    <key>%lld items would change:</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Zmenila by sa %lld položka:</string>
+            <key>few</key>
+            <string>Zmenili by sa %lld položky:</string>
+            <key>many</key>
+            <string>Zmenilo by sa %lld položiek:</string>
+            <key>other</key>
+            <string>Zmenilo by sa %lld položiek:</string>
+        </dict>
+    </dict>
+    <key>%lld matching items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld zodpovedajúca položka</string>
+            <key>few</key>
+            <string>%lld zodpovedajúce položky</string>
+            <key>many</key>
+            <string>%lld zodpovedajúcich položiek</string>
+            <key>other</key>
+            <string>%lld zodpovedajúcich položiek</string>
+        </dict>
+    </dict>
+    <key>%lld operations</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld operácia</string>
+            <key>few</key>
+            <string>%lld operácie</string>
+            <key>many</key>
+            <string>%lld operácií</string>
+            <key>other</key>
+            <string>%lld operácií</string>
+        </dict>
+    </dict>
+    <key>%lld operations in progress</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Prebieha %lld operácia</string>
+            <key>few</key>
+            <string>Prebiehajú %lld operácie</string>
+            <key>many</key>
+            <string>Prebieha %lld operácií</string>
+            <key>other</key>
+            <string>Prebieha %lld operácií</string>
+        </dict>
+    </dict>
+    <key>%lld results</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld výsledok</string>
+            <key>few</key>
+            <string>%lld výsledky</string>
+            <key>many</key>
+            <string>%lld výsledkov</string>
+            <key>other</key>
+            <string>%lld výsledkov</string>
+        </dict>
+    </dict>
+    <key>%lld transfers didn’t finish last time</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Minulý prenos sa nedokončil</string>
+            <key>few</key>
+            <string>%lld prenosy sa minule nedokončili</string>
+            <key>many</key>
+            <string>%lld prenosov sa minule nedokončilo</string>
+            <key>other</key>
+            <string>%lld prenosov sa minule nedokončilo</string>
+        </dict>
+    </dict>
+    <key>%lld unchanged lines</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>%lld nezmenený riadok</string>
+            <key>few</key>
+            <string>%lld nezmenené riadky</string>
+            <key>many</key>
+            <string>%lld nezmenených riadkov</string>
+            <key>other</key>
+            <string>%lld nezmenených riadkov</string>
+        </dict>
+    </dict>
+    <key>and %lld more</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>a ešte %lld</string>
+            <key>few</key>
+            <string>a ešte %lld</string>
+            <key>many</key>
+            <string>a ešte %lld</string>
+            <key>other</key>
+            <string>a ešte %lld</string>
+        </dict>
+    </dict>
+    <key>Ask AI About %lld Items…</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Opýtať sa AI na %lld položku…</string>
+            <key>few</key>
+            <string>Opýtať sa AI na %lld položky…</string>
+            <key>many</key>
+            <string>Opýtať sa AI na %lld položiek…</string>
+            <key>other</key>
+            <string>Opýtať sa AI na %lld položiek…</string>
+        </dict>
+    </dict>
+    <key>Compress %lld Items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Komprimovať %lld položku</string>
+            <key>few</key>
+            <string>Komprimovať %lld položky</string>
+            <key>many</key>
+            <string>Komprimovať %lld položiek</string>
+            <key>other</key>
+            <string>Komprimovať %lld položiek</string>
+        </dict>
+    </dict>
+    <key>Move %lld screenshots to “Screenshots”</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Presunúť %lld snímku obrazovky do „Screenshots“</string>
+            <key>few</key>
+            <string>Presunúť %lld snímky obrazovky do „Screenshots“</string>
+            <key>many</key>
+            <string>Presunúť %lld snímok obrazovky do „Screenshots“</string>
+            <key>other</key>
+            <string>Presunúť %lld snímok obrazovky do „Screenshots“</string>
+        </dict>
+    </dict>
+    <key>Permissions of %lld Items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Oprávnenia %lld položky</string>
+            <key>few</key>
+            <string>Oprávnenia %lld položiek</string>
+            <key>many</key>
+            <string>Oprávnenia %lld položiek</string>
+            <key>other</key>
+            <string>Oprávnenia %lld položiek</string>
+        </dict>
+    </dict>
+    <key>Rename %lld Items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Premenovať %lld položku</string>
+            <key>few</key>
+            <string>Premenovať %lld položky</string>
+            <key>many</key>
+            <string>Premenovať %lld položiek</string>
+            <key>other</key>
+            <string>Premenovať %lld položiek</string>
+        </dict>
+    </dict>
+    <key>Rename %lld Items…</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Premenovať %lld položku…</string>
+            <key>few</key>
+            <string>Premenovať %lld položky…</string>
+            <key>many</key>
+            <string>Premenovať %lld položiek…</string>
+            <key>other</key>
+            <string>Premenovať %lld položiek…</string>
+        </dict>
+    </dict>
+    <key>Runs every %lld minutes</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Spúšťa sa každú minútu</string>
+            <key>few</key>
+            <string>Spúšťa sa každé %lld minúty</string>
+            <key>many</key>
+            <string>Spúšťa sa každých %lld minút</string>
+            <key>other</key>
+            <string>Spúšťa sa každých %lld minút</string>
+        </dict>
+    </dict>
+    <key>Sync %lld Items</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Synchronizovať %lld položku</string>
+            <key>few</key>
+            <string>Synchronizovať %lld položky</string>
+            <key>many</key>
+            <string>Synchronizovať %lld položiek</string>
+            <key>other</key>
+            <string>Synchronizovať %lld položiek</string>
+        </dict>
+    </dict>
+    <key>text of %lld files</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>text %lld súboru</string>
+            <key>few</key>
+            <string>text %lld súborov</string>
+            <key>many</key>
+            <string>text %lld súborov</string>
+            <key>other</key>
+            <string>text %lld súborov</string>
+        </dict>
+    </dict>
+    <key>Trash %lld old installers</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Do koša %lld starý inštalátor</string>
+            <key>few</key>
+            <string>Do koša %lld staré inštalátory</string>
+            <key>many</key>
+            <string>Do koša %lld starých inštalátorov</string>
+            <key>other</key>
+            <string>Do koša %lld starých inštalátorov</string>
+        </dict>
+    </dict>
+    <key>Trashing %lld broken links</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@n@</string>
+        <key>n</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>lld</string>
+            <key>one</key>
+            <string>Presun %lld nefunkčného odkazu do koša</string>
+            <key>few</key>
+            <string>Presun %lld nefunkčných odkazov do koša</string>
+            <key>many</key>
+            <string>Presun %lld nefunkčných odkazov do koša</string>
+            <key>other</key>
+            <string>Presun %lld nefunkčných odkazov do koša</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
